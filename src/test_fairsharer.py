@@ -1,4 +1,5 @@
 from fairsharer import fair_sharer
+import numpy as np
 
 def test_fair_sharer():
     assert fair_sharer([0, 1000, 800, 0], 1) == [100, 800, 900, 0]
